@@ -15,6 +15,7 @@ public class ParallelTesting {
 	@BeforeMethod
 	public void beforeMethod(){
 		System.out.println("The Thread id in this before method is" +Thread.currentThread().getId());
+		System.out.print("id is");
 	}
   @Test
   public void firstTestCase(){
